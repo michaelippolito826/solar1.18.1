@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "solar",
+  "version": "${version}",
+
+  "name": "Solar Mod",
+  "description": "THIS IS A SOLAR MOD",
+  "authors": ["XYOT"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/solar/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["xyot.solar.Solar"]
+  },
+  "mixins": ["xyot.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
